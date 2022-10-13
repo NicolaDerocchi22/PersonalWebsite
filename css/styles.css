@@ -1,3 +1,17 @@
 :root {
   --main-color: #203e49;
+  --main-color_light: #3e606d;
+  --main-color_dark: #0a2029;
+}
+
+.main {
+  background-color: var(--main-color);
+}
+
+.light {
+  background-color: var(--main-color_light);
+}
+
+.dark {
+  background-color: var(--main-color_dark);
 }
