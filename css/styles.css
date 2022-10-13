@@ -1,17 +1,59 @@
 :root {
   --main-color: #203e49;
-  --main-color_light: #3e606d;
+  --main-color_light: #6e98a8;
   --main-color_dark: #0a2029;
+
+  --html-color: #d4e1e6;
+
+  --font_1: 'Poppins', sans-serif;
 }
 
-.main {
-  background-color: var(--main-color);
+html {
+  font-family: var(--font_1);
 }
 
-.light {
+a {
+  text-decoration: none !important;
+}
+
+.navbar-title {
+  font-weight: bold !important;
+  display: inline;
+  color: var(--main-color_dark);
+}
+
+#square-nav-title {
+  width: 1rem;
+  height: 1rem;
   background-color: var(--main-color_light);
+  display: inline-flex;
+  margin-bottom: 0.08rem;
 }
 
-.dark {
-  background-color: var(--main-color_dark);
+.navbar-title_light {
+  font-weight: lighter !important;
+  font-size: large !important;
+  display: inline;
+  color: var(--main-color_dark);
+}
+
+.navbar-link {
+  font-weight: lighter;
+  font-size: medium;
+  color: var(--main-color_dark);
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+.div_spacer {
+  height: 6rem;
+  width: 100%;
+}
+
+.img-size {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
 }
