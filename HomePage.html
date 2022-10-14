@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+
     <title>NicolaDerocchi</title>
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
     <link
@@ -13,47 +14,115 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
-  <body background="images/background.png">
+  <body>
     <div id="navbar">
-      <nav class="navbar navbar-light p-4">
-        <a class="navbar-brand ps-4" href="#">
-          <div id="square-nav-title"></div>
-          <h3 class="navbar-title">Nicola Derocchi</h3>
-          <h3 class="navbar-title_light">/ SOFTWARE DEVELOPER</h3>
-        </a>
-        <div class="text-end me-4">
-          <a class="navbar-link mx-2" href="#">ABOUT ME</a>
-          <a class="navbar-link mx-2" href="#">RESUME</a>
-          <a class="navbar-link mx-2" href="#">PROJECTS</a>
-          <a class="navbar-link mx-2" href="#">CONTACTS</a>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top p-4">
+        <div class="container-fluid">
+          <a class="navbar-brand ps-4" href="#">
+            <div id="square-nav-title"></div>
+            <h3 class="navbar-title">Nicola Derocchi</h3>
+            <h3 class="navbar-title_light">/ DEVELOPER</h3>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggler"
+            aria-controls="navbarToggler"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="navbar-link mx-2 nav-link" href="#">ABOUT ME</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-link mx-2 nav-link" href="#">RESUME</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-link mx-2 nav-link" href="#">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-link mx-2 nav-link" href="#">CONTACTS</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </div>
-
     <div class="div_spacer"></div>
     <div class="row">
-      <div class="col-md-3"></div>
-      <div class="col-md-3">
-        <div class="card shadow-lg p-3 text-center">
-          <img
-            class="img-size rounded mx-auto d-block"
-            src="images/Logo2.png"
-            alt="Profile picture"
-          />
-          <h3>Nicola</h3>
-          <h3>Derocchi</h3>
+      <div class="col-lg-3 col-md-2 col-sm-1"></div>
+      <div class="col-lg-3 col-md-4 col-sm-5">
+        <div class="card shadow-lg p-3 text-center mx-sm-2 card-bg">
+          <img class="rounded-circle mx-auto d-block img-fluid" src="images/Logo2.png" alt="Profile picture" />
+          <div class="mt-4">
+            <h3 class="name-card">Nicola</h3>
+            <h3 class="name-card">Derocchi</h3>
+          </div>
+          <hr class="card-divider" />
+          <h3 class="card-subtitle">FULL-STACK DEVELOPER</h3>
+          <div class="icon-container mt-3 p-3">
+            <i class="bx bxl-linkedin bx-sm me-4"></i>
+            <i class="bx bxl-github bx-sm me-4"></i>
+            <i class="bx bxl-instagram bx-sm"></i>
+          </div>
         </div>
       </div>
-      <div class="col-md-3"></div>
-      <div class="col-md-3"></div>
+      <div class="col-lg-3 col-md-4 col-sm-5">
+        <h3 class="title-card">Ciao</h3>
+        <p class="card-subtitle">Here's who I am & what I do</p>
+        <div class="button-container my-4">
+          <a type="button" class="btn btn-primary btn-sm btn-style_1 px-4 me-1" href="#">CURRICULUM</a>
+          <a type="button" class="btn btn-primary btn-sm btn-style_2 px-4" href="#">PROGETTI</a>
+        </div>
+        <div>
+          <p class="text-card">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+            illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          </p>
+          <p class="text-card">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-2 col-sm-1"></div>
+    </div>
+
+    <div class="row footer">
+      <div class="col-2">
+        <p class="footer-title">
+          ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          by Nicola Derocchi.
+        </p>
+        <p class="footer-text">Perspiciatis unde omnis</p>
+      </div>
+      <div class="col-4"></div>
+      <div class="col-2 text-center hidden-sm">
+        <p class="footer-title">Call:</p>
+        <p class="footer-text">+39 345 8764579</p>
+      </div>
+      <div class="col-2 text-center hidden-sm">
+        <p class="footer-title">Write:</p>
+        <p class="footer-text">nicoladerocchi3@gmail.com</p>
+      </div>
+      <div class="col-2 text-center hidden-sm">
+        <p class="footer-title">Follow:</p>
+        <i class="bx bxl-linkedin bx-xs me-4"></i>
+        <i class="bx bxl-github bx-xs me-4"></i>
+        <i class="bx bxl-instagram bx-xs"></i>
+      </div>
     </div>
 
     <script
