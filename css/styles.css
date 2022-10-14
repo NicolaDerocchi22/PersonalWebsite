@@ -3,6 +3,7 @@
   --main-color_light: #6e98a8;
   --main-color_dark: #0a2029;
   --main-color_card-bg: #95b2bd;
+  --accent_color: #f58002;
 
   --html-color: #d4e1e6;
 
@@ -10,19 +11,31 @@
 }
 
 html {
-  font-family: var(--font_1);
+  font-family: var(--font_1) !important;
+}
+
+body {
+  font-family: var(--font_1) !important;
 }
 
 a {
   text-decoration: none !important;
 }
 
-body {
+body.bg_home {
   background: url(../images/background.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100% !important;
+}
+
+body.bg_resume {
+  background-color: var(--main-color_light) !important;
+}
+
+body.bg_projects {
+  background-color: var(--main-color_light) !important;
 }
 
 .navbar-title {
@@ -32,22 +45,30 @@ body {
 }
 
 #square-nav-title {
-  width: 1vmin;
-  height: 1vmin;
-  background-color: var(--main-color_light);
+  width: 2.3vmin;
+  height: 2.3vmin;
+  background-color: var(--accent_color);
+  display: inline-flex;
+  margin-bottom: 0.08rem;
+}
+
+#square-crad {
+  width: 2.3vmin;
+  height: 5vmin;
+  background-color: var(--accent_color);
   display: inline-flex;
   margin-bottom: 0.08rem;
 }
 
 .navbar-title_light {
-  font-weight: lighter !important;
+  font-weight: 200 !important;
   font-size: large !important;
   display: inline;
   color: var(--main-color_dark) !important;
 }
 
 .navbar-link {
-  font-weight: lighter;
+  font-weight: 200;
   font-size: medium;
   color: var(--main-color_dark) !important;
 }
@@ -70,12 +91,12 @@ body {
 }
 
 .name-card {
-  font-weight: 900 !important;
+  font-weight: 800 !important;
   color: white !important;
 }
 
 .card-divider {
-  border: 2.5px solid white !important;
+  border: 2.5px solid var(--accent_color) !important;
   border-radius: 1.25px;
   width: 15% !important;
   margin: auto !important;
@@ -83,7 +104,7 @@ body {
 }
 
 .card-subtitle {
-  font-weight: lighter;
+  font-weight: 200;
   font-size: large;
   color: white !important;
   margin-top: 1.2rem;
@@ -99,7 +120,7 @@ body {
 }
 
 .title-card {
-  font-weight: 900;
+  font-weight: 800;
   font-size: 7vmax;
   color: var(--main-color_dark) !important;
 }
@@ -111,10 +132,10 @@ p.card-subtitle {
 }
 
 .btn-style_1 {
-  background-color: var(--main-color_light) !important;
+  background-color: var(--accent_color) !important;
   color: white !important;
   border-radius: 20px;
-  border: 1px solid var(--main-color_light);
+  border: 1px solid var(--accent_color);
 }
 
 .btn-style_2 {
@@ -126,7 +147,7 @@ p.card-subtitle {
 
 .text-card {
   color: var(--main-color_dark);
-  font-weight: lighter;
+  font-weight: 200;
 }
 
 .footer {
@@ -143,13 +164,68 @@ p.card-subtitle {
 }
 
 .footer-text {
-  font-weight: lighter;
+  font-weight: 200;
   font-size: small;
   margin-bottom: 0;
 }
 
-@media only screen and (max-width: 400px) {
-  .to_hide {
-    display: none !important;
-  }
+.page-title_resume {
+  display: inline !important;
+  font-weight: 800;
+  font-size: xx-large;
+  color: white;
+}
+
+.experience-date {
+  font-weight: 600;
+  color: var(--accent_color);
+  font-size: larger;
+}
+
+.job-position {
+  font-weight: 400;
+  color: var(--main-color_dark);
+  font-size: large;
+}
+
+.company-details {
+  font-weight: 200;
+  color: var(--main-color_dark);
+  font-size: medium;
+}
+
+.card-padding {
+  padding: 6.5vmin;
+}
+
+.job-description {
+  font-weight: 200;
+  color: var(--main-color_dark);
+  font-size: medium;
+}
+
+.experience-text {
+  color: white;
+}
+
+.margin-custom {
+  margin-top: 6.5vmin !important;
+}
+
+.white-text {
+  color: white;
+}
+
+.project-title {
+  font-weight: 700;
+  color: var(--main-color_dark);
+  font-size: x-large;
+  display: inline;
+}
+
+.project-role {
+  font-weight: 200 !important;
+  font-size: large !important;
+  display: inline;
+  color: var(--main-color_dark) !important;
 }
