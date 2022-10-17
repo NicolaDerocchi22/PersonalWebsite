@@ -42,6 +42,7 @@ body.bg_projects {
   font-weight: 900 !important;
   display: inline;
   color: var(--main-color_dark) !important;
+  font-size: 4vmin;
 }
 
 #square-nav-title {
@@ -57,19 +58,18 @@ body.bg_projects {
   height: 5vmin;
   background-color: var(--accent_color);
   display: inline-flex;
-  margin-bottom: 0.08rem;
 }
 
 .navbar-title_light {
   font-weight: 200 !important;
-  font-size: large !important;
+  font-size: 2.3vmin !important;
   display: inline;
   color: var(--main-color_dark) !important;
 }
 
 .navbar-link {
   font-weight: 200;
-  font-size: medium;
+  font-size: 2.3vmin;
   color: var(--main-color_dark) !important;
 }
 
@@ -80,7 +80,7 @@ body.bg_projects {
 }
 
 .div_spacer {
-  height: 15rem;
+  height: 35vmin;
   width: 100%;
 }
 
@@ -100,14 +100,14 @@ body.bg_projects {
   border-radius: 1.25px;
   width: 15% !important;
   margin: auto !important;
-  margin-top: 1.2rem !important;
+  margin-top: 4vmin !important;
 }
 
 .card-subtitle {
   font-weight: 200;
-  font-size: large;
+  font-size: 2.5vmin;
   color: white !important;
-  margin-top: 1.2rem;
+  margin-top: 4rem;
 }
 
 .card-bg {
@@ -159,39 +159,39 @@ p.card-subtitle {
 
 .footer-title {
   font-weight: bold !important;
-  font-size: small !important;
+  font-size: 2vmin !important;
   margin-bottom: 0;
 }
 
 .footer-text {
   font-weight: 200;
-  font-size: small;
+  font-size: 2vmin;
   margin-bottom: 0;
 }
 
 .page-title_resume {
   display: inline !important;
   font-weight: 800;
-  font-size: xx-large;
+  font-size: 7vmin;
   color: white;
 }
 
 .experience-date {
   font-weight: 600;
   color: var(--accent_color);
-  font-size: larger;
+  font-size: 2.85vmin;
 }
 
 .job-position {
   font-weight: 400;
   color: var(--main-color_dark);
-  font-size: large;
+  font-size: 2.6vmin;
 }
 
 .company-details {
   font-weight: 200;
   color: var(--main-color_dark);
-  font-size: medium;
+  font-size: 2.2vmin;
 }
 
 .card-padding {
@@ -201,7 +201,7 @@ p.card-subtitle {
 .job-description {
   font-weight: 200;
   color: var(--main-color_dark);
-  font-size: medium;
+  font-size: 2.35vmin;
 }
 
 .experience-text {
@@ -218,14 +218,20 @@ p.card-subtitle {
 
 .project-title {
   font-weight: 700;
-  color: var(--main-color_dark);
-  font-size: x-large;
+  color: var(--accent_color);
+  font-size: 4.5vmin;
   display: inline;
 }
 
 .project-role {
   font-weight: 200 !important;
-  font-size: large !important;
+  font-size: 2.3vmin !important;
   display: inline;
   color: var(--main-color_dark) !important;
+}
+
+.project-description {
+  font-weight: 200;
+  font-size: 2.5vmin;
+  color: var(--main-color_dark);
 }
