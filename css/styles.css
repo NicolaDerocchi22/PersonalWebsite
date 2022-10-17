@@ -173,13 +173,13 @@ p.card-subtitle {
 
 .footer-title {
   font-weight: bold !important;
-  font-size: 2vmin !important;
+  font-size: 1.5vmin !important;
   margin-bottom: 0;
 }
 
 .footer-text {
   font-weight: 200;
-  font-size: 2vmin;
+  font-size: 1.5vmin;
   margin-bottom: 0;
 }
 
