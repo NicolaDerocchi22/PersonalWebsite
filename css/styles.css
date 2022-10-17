@@ -22,6 +22,20 @@ a {
   text-decoration: none !important;
 }
 
+input,
+label {
+  display: block;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
 body.bg_home {
   background: url(../images/background.png);
   background-position: center;
@@ -234,4 +248,35 @@ p.card-subtitle {
   font-weight: 200;
   font-size: 2.5vmin;
   color: var(--main-color_dark);
+}
+
+.bg_contacts {
+  background-color: var(--main-color_light);
+}
+
+.custom-border {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-color: var(--main-color_dark);
+  border-width: 2px;
+  width: 100%;
+}
+
+.custom-border:hover {
+  border-color: var(--accent_color);
+}
+
+.custom-border:focus {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-color: var(--accent_color);
+  border-width: 2px;
+}
+
+.custom-label {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 2vmin;
 }

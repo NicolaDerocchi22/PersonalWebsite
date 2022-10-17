@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
-  <body>
+  <body class="bg_contacts">
     <div id="navbar">
       <nav class="navbar navbar-expand-lg navbar-light fixed-top p-4">
         <div class="container-fluid">
@@ -59,6 +59,56 @@
           </div>
         </div>
       </nav>
+    </div>
+
+    <div class="div_spacer"></div>
+    <div class="text-center">
+      <div id="square-nav-title"></div>
+      <h3 class="page-title_resume">Let's talk</h3>
+    </div>
+
+    <div class="row margin-custom">
+      <div class="col-md-3 col-sm-1"></div>
+      <div class="col-md-6">
+        <div class="card mb-3 shadow">
+          <div class="row p-4">
+            <div class="col-md-6 col-xs-12">
+              <div class="mb-4 me-3">
+                <label for="name" class="form-label custom-label">Nome</label>
+                <input type="text" class="custom-border" id="name" />
+              </div>
+            </div>
+            <div class="col-md-6 col-xs-12">
+              <div class="mb-4 ms-3">
+                <label for="surname" class="form-label custom-label">Cognome</label>
+                <input type="text" class="custom-border" id="surname" />
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="mb-4 mt-4">
+                <label for="email" class="form-label custom-label">Email</label>
+                <input type="email" class="custom-border" id="email" placeholder="test@email.com" />
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="mb-4 mt-4">
+                <label for="subject" class="form-label custom-label">Oggetto</label>
+                <input type="text" class="custom-border" id="subject" />
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="mb-4 mt-4">
+                <label for="message" class="form-label custom-label">Messaggio</label>
+                <textarea class="custom-border" id="message" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="col-12">
+              <a type="button" class="btn btn-primary btn-sm btn-style_1 px-4 me-1" onclick="SendMessage()">Invia</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3"></div>
     </div>
 
     <div class="row footer">
