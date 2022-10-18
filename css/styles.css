@@ -27,6 +27,11 @@ body {
 
 a {
   text-decoration: none !important;
+  color: var(--main-color_dark);
+}
+
+a:hover {
+  color: var(--main-color_light);
 }
 
 input,
