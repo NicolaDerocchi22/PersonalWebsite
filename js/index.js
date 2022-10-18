@@ -10,5 +10,6 @@ const SendMessage = () => {
     var link = 'mailto:nicoladerocchi3@gmail.com' + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(message);
     window.location.href = link;
   } else {
+    Notiflix.Notify.failure('Compila tutti i campi prima di inviare il messaggio');
   }
 };
