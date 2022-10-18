@@ -10,6 +10,13 @@
   --font_1: 'Poppins', sans-serif;
 }
 
+li {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 2px solid var(--accent_color) !important;
+}
+
 html {
   font-family: var(--font_1) !important;
 }
@@ -279,4 +286,25 @@ p.card-subtitle {
   color: var(--main-color);
   font-weight: 400;
   font-size: 2vmin;
+}
+
+.bg-primary {
+  background-color: var(--accent_color) !important;
+}
+
+.competenze-title {
+  font-weight: 600 !important;
+  color: var(--main-color_dark);
+  font-size: 2.65vmin;
+}
+
+.competenze-subtitle {
+  font-weight: 400 !important;
+  color: var(--main-color_dark);
+  font-size: 2vmin;
+}
+
+.competenze-pill {
+  font-weight: 400;
+  color: white;
 }
