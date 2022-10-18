@@ -313,3 +313,23 @@ p.card-subtitle {
   font-weight: 400;
   color: white;
 }
+
+@media (max-width: 1000px) {
+  .hidden {
+    display: none;
+  }
+
+  .card {
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+  }
+
+  .padding-xs {
+    padding-left: 5vmin;
+    padding-right: 5vmin;
+  }
+
+  .txt-center-sm {
+    text-align: center !important;
+  }
+}
