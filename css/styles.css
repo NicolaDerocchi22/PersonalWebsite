@@ -386,6 +386,10 @@ p.card-subtitle {
   .card-subtitle {
     margin-top: 2.5rem;
   }
+
+  .white-text-sm {
+    color: white !important;
+  }
 }
 
 @keyframes fadeIn {
