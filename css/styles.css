@@ -320,16 +320,20 @@ p.card-subtitle {
   }
 
   .card {
-    margin-left: 5vmin;
-    margin-right: 5vmin;
+    margin-left: 6.5vmin;
+    margin-right: 6.5vmin;
   }
 
   .padding-xs {
-    padding-left: 5vmin;
-    padding-right: 5vmin;
+    padding-left: 6.5vmin;
+    padding-right: 6.5vmin;
   }
 
   .txt-center-sm {
     text-align: center !important;
+  }
+
+  .bg_home {
+    background-image: url('../images/background_sm.png') !important;
   }
 }
