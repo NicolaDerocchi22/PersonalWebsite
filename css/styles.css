@@ -348,6 +348,16 @@ p.card-subtitle {
   animation-name: fadeInUp;
 }
 
+.navbar-toggler-icon {
+  font-size: 2.5vmin;
+}
+.navbar-toggler {
+  padding: 1vmin;
+  padding-top: 0;
+  padding-bottom: 0.3vmin;
+  text-align: center;
+}
+
 @media (max-width: 1000px) {
   .hidden {
     display: none;
