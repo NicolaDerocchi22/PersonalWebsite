@@ -315,6 +315,34 @@ p.card-subtitle {
   color: white;
 }
 
+.scene_element {
+  animation-duration: 0.5s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
+.scene_element__long {
+  animation-duration: 0.75s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
+.scene_animation__fadein {
+  animation-name: fadeIn;
+}
+
+.scene_animation__fadeinright {
+  animation-name: fadeInRight;
+}
+
+.scene_animation__fadeinleft {
+  animation-name: fadeInLeft;
+}
+
+.scene_animation__fadeinup {
+  animation-name: fadeInUp;
+}
+
 @media (max-width: 1000px) {
   .hidden {
     display: none;
@@ -352,5 +380,51 @@ p.card-subtitle {
 
   .card-subtitle {
     margin-top: 2.5rem;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
   }
 }
