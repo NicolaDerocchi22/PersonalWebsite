@@ -390,6 +390,10 @@ p.card-subtitle {
   .white-text-sm {
     color: white !important;
   }
+
+  .small-text-sm {
+    font-size: 2.8vmin;
+  }
 }
 
 @keyframes fadeIn {
