@@ -325,8 +325,8 @@ p.card-subtitle {
   }
 
   .padding-xs {
-    padding-left: 6.5vmin;
-    padding-right: 6.5vmin;
+    padding-left: 6.5vmin !important;
+    padding-right: 6.5vmin !important;
   }
 
   .txt-center-sm {
@@ -335,5 +335,17 @@ p.card-subtitle {
 
   .bg_home {
     background-image: url('../images/background_sm.png') !important;
+  }
+
+  .experience-text {
+    margin-left: 6.5vmin;
+  }
+
+  .margin-xs {
+    padding-right: 6.5vmin;
+  }
+
+  .competenze-pill {
+    font-size: 2vmin;
   }
 }
