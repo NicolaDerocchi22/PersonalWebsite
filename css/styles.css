@@ -3,11 +3,12 @@
   --main-color_light: #6e98a8;
   --main-color_dark: #0a2029;
   --main-color_card-bg: #95b2bd;
-  --accent_color: #f58002;
+  --accent_color: #57d198;
 
   --html-color: #d4e1e6;
 
   --font_1: 'Poppins', sans-serif;
+  --font-color: #0a2029;
 }
 
 li {
@@ -27,11 +28,11 @@ body {
 
 a {
   text-decoration: none !important;
-  color: var(--main-color_dark);
+  color: var(--font-color);
 }
 
 a:hover {
-  color: var(--main-color_light);
+  color: var(--accent_color);
 }
 
 input,
@@ -67,7 +68,7 @@ body.bg_projects {
 .navbar-title {
   font-weight: 900 !important;
   display: inline;
-  color: var(--main-color_dark) !important;
+  color: var(--font-color) !important;
   font-size: 4vmin;
 }
 
@@ -90,13 +91,13 @@ body.bg_projects {
   font-weight: 200 !important;
   font-size: 2.3vmin !important;
   display: inline;
-  color: var(--main-color_dark) !important;
+  color: var(--font-color) !important;
 }
 
 .navbar-link {
   font-weight: 200;
   font-size: 2.3vmin;
-  color: var(--main-color_dark) !important;
+  color: var(--font-color) !important;
 }
 
 .navbar {
@@ -142,19 +143,19 @@ body.bg_projects {
 
 .icon-container {
   background-color: white !important;
-  color: var(--main-color_dark) !important;
+  color: var(--font-color) !important;
 }
 
 .title-card {
   font-weight: 800;
   font-size: 7vmax;
-  color: var(--main-color_dark) !important;
+  color: var(--font-color) !important;
 }
 
 p.card-subtitle {
   font-weight: normal !important;
   font-size: x-large !important;
-  color: var(--main-color_dark) !important;
+  color: var(--font-color) !important;
 }
 
 .btn-style_1 {
@@ -166,13 +167,13 @@ p.card-subtitle {
 
 .btn-style_2 {
   background-color: white !important;
-  color: var(--main-color_dark) !important;
+  color: var(--font-color) !important;
   border-radius: 20px;
   border: 1px solid var(--main-color_light);
 }
 
 .text-card {
-  color: var(--main-color_dark);
+  color: var(--);
   font-weight: 200;
 }
 
@@ -347,5 +348,9 @@ p.card-subtitle {
 
   .competenze-pill {
     font-size: 2vmin;
+  }
+
+  .card-subtitle {
+    margin-top: 2.5rem;
   }
 }
