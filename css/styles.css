@@ -148,8 +148,13 @@ body.bg_projects {
 
 .title-card {
   font-weight: 800;
-  font-size: 7vmax;
+  font-size: 12vmin;
   color: var(--font-color) !important;
+}
+
+.title-card::first-letter {
+  font-size: 22vmin;
+  margin-bottom: 0;
 }
 
 p.card-subtitle {
