@@ -1,14 +1,14 @@
 :root {
   --main-color: #203e49;
-  --main-color_light: #6e98a8;
-  --main-color_dark: #0a2029;
-  --main-color_card-bg: #95b2bd;
+  --main-color_light: #666a73;
+  --main-color_dark: #242424;
+  --main-color_card-bg: #242424;
   --accent_color: #57d198;
 
-  --html-color: #d4e1e6;
+  --html-color: #bababf;
 
   --font_1: 'Poppins', sans-serif;
-  --font-color: #0a2029;
+  --font-color: #2f3536;
 }
 
 li {
@@ -356,6 +356,10 @@ p.card-subtitle {
   padding-top: 0;
   padding-bottom: 0.3vmin;
   text-align: center;
+}
+
+.img-border {
+  border: 3px solid var(--accent_color) !important;
 }
 
 @media (max-width: 1000px) {
