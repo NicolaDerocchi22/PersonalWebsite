@@ -70,7 +70,7 @@ body.bg_projects {
   display: inline;
   color: var(--font-color) !important;
   font-size: 4vmin;
-  text-shadow: 0.2vmin 0.2vmin var(--accent_color);
+  text-shadow: 0.2vmin -0.2vmin var(--accent_color);
 }
 
 #square-nav-title {

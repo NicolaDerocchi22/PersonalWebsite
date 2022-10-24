@@ -68,7 +68,7 @@
   }
 
   50% {
-    box-shadow: 1.5vmin -1.5vmin 2.5vmin 1vmin var(--accent_color);
+    box-shadow: 1.8vmin -1.8vmin 2.8vmin 0.3vmin var(--accent_color);
   }
 
   100% {
