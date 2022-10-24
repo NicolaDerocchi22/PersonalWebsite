@@ -1,0 +1,117 @@
+:root {
+  --accent_color: #57d198;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes shadowPulse_text {
+  0% {
+    text-shadow: 1vmin -1vmin 0.7vmin var(--accent_color);
+  }
+
+  50% {
+    text-shadow: 1.3vmin -1.3vmin 1vmin var(--accent_color);
+  }
+
+  100% {
+    text-shadow: 1vmin -1vmin 0.7vmin var(--accent_color);
+  }
+}
+
+@keyframes shadowPulse_box {
+  0% {
+    box-shadow: 1.5vmin -1.5vmin 2.5vmin 1vmin var(--accent_color);
+  }
+
+  50% {
+    box-shadow: 1.5vmin -1.5vmin 2.5vmin 1vmin var(--accent_color);
+  }
+
+  100% {
+    box-shadow: 1.5vmin -1.5vmin 2.5vmin 1vmin var(--accent_color);
+  }
+}
+
+.scene_element {
+  animation-duration: 0.5s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
+.scene_element__long {
+  animation-duration: 0.75s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
+.scene_animation__fadein {
+  animation-name: fadeIn;
+}
+
+.scene_animation__fadeinright {
+  animation-name: fadeInRight;
+}
+
+.scene_animation__fadeinleft {
+  animation-name: fadeInLeft;
+}
+
+.scene_animation__fadeinup {
+  animation-name: fadeInUp;
+}
+
+.scene_animation__shadow_pulse_text {
+  animation-name: shadowPulse_text;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+
+.scene_animation__shadow_pulse_box {
+  animation-name: shadowPulse_box;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
