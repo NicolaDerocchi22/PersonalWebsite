@@ -378,6 +378,7 @@ p.card-subtitle {
   border-bottom: 2px solid var(--accent_color) !important;
   transition: all 0.5s ease;
   padding: 3vmin;
+  border-radius: 0.25rem;
 }
 
 .project-title-text:hover {
@@ -409,6 +410,23 @@ p.card-subtitle {
   margin-bottom: 0;
   font-weight: 500;
   color: var(--font-color);
+}
+
+.skills-card-title {
+  color: var(--font-color);
+  font-weight: 900;
+  font-size: 5vmin;
+  margin-bottom: 3vmin;
+  text-shadow: 0.3vmin -0.5vmin var(--accent_color);
+  transition: all 0.5s ease;
+  text-align: center;
+  display: inline !important;
+}
+
+.skills-card-title:hover {
+  color: var(--accent_color);
+  text-shadow: 0.3vmin -0.5vmin var(--font-color);
+  transition: all 0.5s ease;
 }
 
 @media (max-width: 1000px) {
