@@ -377,11 +377,38 @@ p.card-subtitle {
 .project-title-text {
   border-bottom: 2px solid var(--accent_color) !important;
   transition: all 0.5s ease;
+  padding: 3vmin;
 }
 
 .project-title-text:hover {
   border: 2px solid var(--accent_color) !important;
   transition: all 0.5s ease;
+}
+
+.skill-card {
+  padding: 3vmin !important;
+}
+
+.progress {
+  height: 0.3vmin;
+}
+
+.bg-success {
+  background-color: var(--accent_color) !important;
+}
+
+.skill-name {
+  margin-bottom: 0;
+  margin-top: 2vmin;
+  font-weight: 500;
+  color: var(--font-color);
+}
+
+.skill-name_first {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  color: var(--font-color);
 }
 
 @media (max-width: 1000px) {
@@ -429,5 +456,9 @@ p.card-subtitle {
 
   .small-text-sm {
     font-size: 2.8vmin;
+  }
+
+  .margin-top-xs {
+    margin-top: 5vmin !important;
   }
 }
