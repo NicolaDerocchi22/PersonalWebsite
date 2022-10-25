@@ -142,7 +142,7 @@ body.bg_projects {
   font-weight: 200;
   font-size: 2.5vmin;
   color: white !important;
-  margin-top: 4rem;
+  margin-top: 3vmin;
 }
 
 .card-bg {
@@ -160,12 +160,13 @@ body.bg_projects {
   color: var(--font-color) !important;
   text-shadow: 1vmin -1vmin 0.7vmin var(--accent_color);
   display: inline;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
 }
 
 .title-card:hover {
   color: var(--accent_color) !important;
-  text-shadow: 1vmin -1vmin 0.7vmin var(--font-color);
+  text-shadow: 1vmin -1vmin 0.7vmin var(--font-color) !important;
+  transition: all 0.4s ease;
 }
 
 .first-letter {
@@ -175,7 +176,7 @@ body.bg_projects {
 
 p.card-subtitle {
   font-weight: normal !important;
-  font-size: x-large !important;
+  font-size: 5vmin;
   color: var(--font-color) !important;
 }
 
@@ -220,8 +221,18 @@ p.card-subtitle {
 .page-title_resume {
   display: inline !important;
   font-weight: 800;
-  font-size: 7vmin;
+  font-size: 9vmin;
   color: white;
+  text-shadow: 0.5vmin -0.5vmin var(--accent_color);
+  transition: all 0.3s ease;
+}
+
+.page-title_resume:hover {
+  display: inline !important;
+  font-weight: 800;
+  font-size: 9vmin;
+  color: var(--accent_color);
+  text-shadow: 0.5vmin -0.5vmin white;
 }
 
 .experience-date {
@@ -243,7 +254,11 @@ p.card-subtitle {
 }
 
 .card-padding {
-  padding: 6.5vmin;
+  padding: 5vmin;
+}
+
+.card-margin {
+  margin-top: 5vmin;
 }
 
 .job-description {
@@ -352,6 +367,16 @@ p.card-subtitle {
 
 .custom-shadow {
   box-shadow: 1.5vmin -1.5vmin 2.5vmin 1vmin var(--accent_color);
+}
+
+.project-title-text {
+  border-bottom: 2px solid var(--accent_color) !important;
+  transition: all 0.5s ease;
+}
+
+.project-title-text:hover {
+  border: 2px solid var(--accent_color) !important;
+  transition: all 0.5s ease;
 }
 
 @media (max-width: 1000px) {
