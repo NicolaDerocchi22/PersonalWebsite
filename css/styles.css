@@ -207,6 +207,7 @@ p.card-subtitle {
   background-color: white !important;
   color: var(--main-color_dark) !important;
   padding: 4vmin;
+  margin-top: 20vmin;
 }
 
 .footer-title {
