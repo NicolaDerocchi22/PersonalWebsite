@@ -4,10 +4,12 @@
   --main-color_dark: #242424;
   --main-color_card-bg: #242424;
   --accent_color: #57d198;
+  --accent_color_dark: #46a177;
 
   --html-color: #bababf;
 
-  --font_1: 'Poppins', sans-serif;
+  --font_1: 'Raleway', sans-serif;
+  --font_2: 'Poppins', sans-serif;
   --font-color: #000000;
 }
 
@@ -124,6 +126,7 @@ body.bg_projects {
   font-size: 6vmin;
   display: inline;
   transition: all 0.2s ease;
+  font-family: var(--font_2) !important;
 }
 
 .name-card:hover {
@@ -161,6 +164,7 @@ body.bg_projects {
   text-shadow: 1vmin -1vmin 0.7vmin var(--accent_color);
   display: inline;
   transition: all 0.4s ease;
+  font-family: var(--font_2);
 }
 
 .title-card:hover {
@@ -196,13 +200,12 @@ p.card-subtitle {
 
 .text-card {
   color: var(--);
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .footer {
   background-color: white !important;
   color: var(--main-color_dark) !important;
-  margin-top: 20vmin;
   padding: 4vmin;
 }
 
@@ -225,6 +228,7 @@ p.card-subtitle {
   color: white;
   text-shadow: 0.5vmin -0.5vmin var(--accent_color);
   transition: all 0.3s ease;
+  font-family: var(--font_2);
 }
 
 .page-title_resume:hover {
