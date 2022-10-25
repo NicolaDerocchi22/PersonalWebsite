@@ -461,4 +461,8 @@ p.card-subtitle {
   .margin-top-xs {
     margin-top: 5vmin !important;
   }
+
+  .btn {
+    font-size: 2.2vmin !important;
+  }
 }
