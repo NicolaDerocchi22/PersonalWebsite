@@ -302,6 +302,7 @@ p.card-subtitle {
   font-weight: 200;
   font-size: 2.5vmin;
   color: var(--main-color_dark);
+  text-align: left;
 }
 
 .bg_contacts {
