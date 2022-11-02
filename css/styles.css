@@ -375,18 +375,6 @@ p.card-subtitle {
   box-shadow: 1.5vmin -1.5vmin 2.5vmin 1vmin var(--accent_color);
 }
 
-.project-title-text {
-  border-bottom: 2px solid var(--accent_color) !important;
-  transition: all 0.5s ease;
-  padding: 3vmin;
-  border-radius: 0.25rem;
-}
-
-.project-title-text:hover {
-  border: 2px solid var(--accent_color) !important;
-  transition: all 0.5s ease;
-}
-
 .skill-card {
   padding: 3vmin !important;
 }
