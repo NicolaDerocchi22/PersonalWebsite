@@ -419,9 +419,6 @@ p.card-subtitle {
   transition: all 0.5s ease;
 }
 
-.img-text-under {
-}
-
 .text-img {
   background-color: var(--accent_color) !important;
   padding: 3vmin !important;
@@ -459,6 +456,13 @@ p.card-subtitle {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.square_txt {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  opacity: 0.2;
 }
 
 @media (max-width: 1000px) {
