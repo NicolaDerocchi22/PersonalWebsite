@@ -279,7 +279,7 @@ p.card-subtitle {
 .job-description {
   font-weight: 200;
   color: var(--main-color_dark);
-  font-size: 2.35vmin;
+  font-size: 2vmin;
 }
 
 .experience-text {
@@ -310,7 +310,7 @@ p.card-subtitle {
 
 .project-description {
   font-weight: 200;
-  font-size: 2.5vmin;
+  font-size: 2vmin;
   color: var(--main-color_dark);
   text-align: left;
 }
